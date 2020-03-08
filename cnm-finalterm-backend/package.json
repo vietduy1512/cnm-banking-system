@@ -1,0 +1,25 @@
+{
+  "name": "cnm-finalterm-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.3.0",
+    "jwt-decode": "^2.2.0",
+    "knex": "^0.16.2",
+    "morgan": "~1.9.0",
+    "rand-token": "^0.4.0",
+    "sqlite3": "^4.0.4",
+    "twilio": "^3.26.0"
+  }
+}
